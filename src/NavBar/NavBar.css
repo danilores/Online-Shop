@@ -1,0 +1,105 @@
+.navbar{
+    height: 72px;
+    color: rgb(255, 255, 255);
+   background-color: #222831;
+   display:flex;
+  justify-content:space-between;
+
+}
+.layout{
+    overflow:auto;
+    display: flex;
+    align-items: center;     
+    padding-left:32px;
+}
+.lines{
+    height: 32px;
+    width: 32px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.more{
+    margin-right: 16px;
+    border-radius: 5px;
+    height: 48px;
+    width: 48px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more:hover{
+    transition: all .2s ease-in-out;
+    background-color: #00ADB5;
+}
+h4{
+    margin: 0px;
+    font-size: 24px;
+     
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #EEEEEE;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.searchTerm:focus{  
+}
+
+.searchButton {
+  width: 120px;
+  height: 36px;
+  border: 1px solid #EEEEEE;
+  background: #393E46;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.searchButton:hover{
+    transition: 0.5s;
+    background-color: #00ADB5;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 800px;
+    margin-right: 60px;
+}
+.ln-select{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+.sp1{
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 2px solid #00ADB5;   
+}
+.cart{
+    overflow:auto;
+    display: flex;
+    align-items: center;     
+    padding-left:32px;
+
+}
+cr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
